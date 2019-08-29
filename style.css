@@ -1,0 +1,52 @@
+body{
+    background-color:lightblue;
+    margin:0;
+    width: 40%;
+    height: 60%;
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display:static;
+    margin:auto;
+    justify-content: space-evenly;
+}
+
+.task {
+    background-color:  rgba(243, 156, 18 , 0.5);
+    width:auto;  
+    max-height:40vh;
+    height:30vh;
+    overflow-y: scroll;
+    margin-top: 2vh;
+    font-size: 2vh;
+    
+}
+.finish {
+    background-color:  rgba(243,156,18, 0.5);
+    width:auto;
+    max-height:40vh;
+    height:30vh;
+    overflow-y: scroll;
+    margin-top: 2vh;
+    font-size: 2vh;
+    text-decoration: line-through;
+}
+.task_inputs {
+    width: 50%;
+    height: 4vh;
+    font-size: 2vh;
+}
+.task_btn {
+    height: 4vh;
+    font-size: 2vh;
+    border-radius: 10%;
+    color: orange;
+    background-color: lightblue;
+}
+h2 {
+    color: orange;
+}
+
